@@ -1,0 +1,25 @@
+https://decibel.ni.com/content/docs/DOC-23233
+
+
+Fast base 64 encoder and decoder (for performance reasons in two separatae files)
+ 
+Attention: the decoder does no check on of the input data. Please remove any whitespaces (spaces, tabs, line breaks) and any "non-Base64" stuff from the input string before feeding to the base64 decoder (this is also for performance reasons, the user can decide If he is getting valid data only anyway or if it has to be sanitized first)
+ 
+If you want to understand, how bas64 encoding/decoding works, please check other implementations. These VIs have been optimized for speed. And while trying to keep to LabView design rules, the implementation uses some optimizions that are not obvious on first glance.
+ 
+If you need a really fast base64 encoder/decoder, that does not depend on any external code (like C-libraries) than this is for you. These VIs only use LabView standard functions and should run on any platform (even fpga and embedded).
+ 
+The VIs are configured to be inlined into the calling VI. This should reduce execution times. If you need to do debugging, just change the configuration of this vi (but do not forget to revert to the original state to get optimum performance).
+ 
+There are versions for LV2011 and LV8.6. The only difference (beside the format) is in base64_encode_fast since LV 8.6 does not support automatic parallelism of loops.
+ 
+ 
+There is still room for optimizions, so there might be further, faster versions in the future.
+ 
+Licensing: Everyone is free to use these VIs under one of the fallowing licenses (Just select the one that meets your needs the best)
+GNU GPL v2
+GNU GPL v3
+MIT License
+Creative Commons CC-by
+
+MIT License Used

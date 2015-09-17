@@ -25,6 +25,14 @@
 			<Item Name="http connection handler.vi" Type="VI" URL="../http connection handler.vi"/>
 			<Item Name="http server properties.ctl" Type="VI" URL="../http server properties.ctl"/>
 		</Item>
+		<Item Name="plugins" Type="Folder">
+			<Item Name="upgrade" Type="Folder">
+				<Item Name="http upgrade callback.ctl" Type="VI" URL="../http upgrade callback.ctl"/>
+				<Item Name="http upgrade data.ctl" Type="VI" URL="../http upgrade data.ctl"/>
+				<Item Name="upgrade handler.vit" Type="VI" URL="../websocket/upgrade handler.vit"/>
+			</Item>
+			<Item Name="http plugins.ctl" Type="VI" URL="../http plugins.ctl"/>
+		</Item>
 		<Item Name="protocol" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="http method.ctl" Type="VI" URL="../http method.ctl"/>
@@ -43,12 +51,30 @@
 			<Item Name="http handle content data.vi" Type="VI" URL="../http handle content data.vi"/>
 			<Item Name="http handle header.vi" Type="VI" URL="../http handle header.vi"/>
 			<Item Name="http parse header string.vi" Type="VI" URL="../http parse header string.vi"/>
+			<Item Name="http check to keep listening.vi" Type="VI" URL="../http check to keep listening.vi"/>
 			<Item Name="http transmit response.vi" Type="VI" URL="../http transmit response.vi"/>
 			<Item Name="http response packet type.ctl" Type="VI" URL="../http response packet type.ctl"/>
 			<Item Name="http check to close connection.vi" Type="VI" URL="../http check to close connection.vi"/>
 			<Item Name="http write header.vi" Type="VI" URL="../http write header.vi"/>
+			<Item Name="http upgrade action.vi" Type="VI" URL="../http upgrade action.vi"/>
+		</Item>
+		<Item Name="websockets" Type="Folder">
+			<Item Name="base64" Type="Folder">
+				<Item Name="base64 decode.vi" Type="VI" URL="../base64/base64 decode.vi"/>
+				<Item Name="base64 encode.vi" Type="VI" URL="../base64/base64 encode.vi"/>
+			</Item>
+			<Item Name="SHA-1" Type="Folder">
+				<Item Name="SHA-1 Core.vi" Type="VI" URL="../SHA-1/SHA-1 Core.vi"/>
+				<Item Name="SHA-1 Digest.vi" Type="VI" URL="../SHA-1/SHA-1 Digest.vi"/>
+				<Item Name="SHA-1 Pad.vi" Type="VI" URL="../SHA-1/SHA-1 Pad.vi"/>
+				<Item Name="SHA-1 Test.vi" Type="VI" URL="../SHA-1/SHA-1 Test.vi"/>
+				<Item Name="SHA-1.vi" Type="VI" URL="../SHA-1/SHA-1.vi"/>
+			</Item>
+			<Item Name="websocket data mask.vi" Type="VI" URL="../websocket/websocket data mask.vi"/>
+			<Item Name="websocket handler.vi" Type="VI" URL="../websocket/websocket handler.vi"/>
 		</Item>
 		<Item Name="testclient.vi" Type="VI" URL="../testclient.vi"/>
+		<Item Name="ws key accept process.vi" Type="VI" URL="../../tests/ws key accept process.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
