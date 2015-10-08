@@ -49,13 +49,14 @@
 			<Item Name="http write header.vi" Type="VI" URL="../http write header.vi"/>
 		</Item>
 		<Item Name="test" Type="Folder">
-			<Item Name="testclient.vi" Type="VI" URL="../testclient.vi"/>
+			<Item Name="testclient.vi" Type="VI" URL="../../tests/testclient.vi"/>
 			<Item Name="ws key accept process.vi" Type="VI" URL="../../tests/ws key accept process.vi"/>
 		</Item>
 		<Item Name="websockets" Type="Folder">
 			<Item Name="websocket upgrade handler.lvclass" Type="LVClass" URL="../websocket/websocket upgrade handler.lvclass"/>
 			<Item Name="websocket user plugin.lvclass" Type="LVClass" URL="../websocket/user plugin/websocket user plugin.lvclass"/>
 		</Item>
+		<Item Name="Websocket console plugin.lvclass" Type="LVClass" URL="../websocket/user plugin/websocket console/Websocket console plugin.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
