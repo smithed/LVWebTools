@@ -21,31 +21,31 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="handler" Type="Folder">
 			<Item Name="application request.ctl" Type="VI" URL="../application request.ctl"/>
-			<Item Name="handler.vi" Type="VI" URL="../handler.vi"/>
-			<Item Name="listener.vi" Type="VI" URL="../listener.vi"/>
-			<Item Name="processor.vi" Type="VI" URL="../processor.vi"/>
-			<Item Name="responder action.vi" Type="VI" URL="../responder action.vi"/>
+			<Item Name="default responder action.vi" Type="VI" URL="../default responder action.vi"/>
+			<Item Name="FCGI connection handler.vi" Type="VI" URL="../FCGI connection handler.vi"/>
+			<Item Name="FCGI process request.vi" Type="VI" URL="../FCGI process request.vi"/>
+			<Item Name="FCGI request worker.vi" Type="VI" URL="../FCGI request worker.vi"/>
+			<Item Name="FCGI server.vi" Type="VI" URL="../FCGI server.vi"/>
+			<Item Name="processor piecewise.vi" Type="VI" URL="../processor piecewise.vi"/>
 			<Item Name="worker package.ctl" Type="VI" URL="../worker package.ctl"/>
-			<Item Name="worker.vi" Type="VI" URL="../worker.vi"/>
 		</Item>
 		<Item Name="protocol" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="begin request body.ctl" Type="VI" URL="../begin request body.ctl"/>
-			<Item Name="end request body.ctl" Type="VI" URL="../end request body.ctl"/>
-			<Item Name="begin request role.ctl" Type="VI" URL="../begin request role.ctl"/>
-			<Item Name="end request protocol status.ctl" Type="VI" URL="../end request protocol status.ctl"/>
-			<Item Name="parse count.vi" Type="VI" URL="../parse count.vi"/>
-			<Item Name="parse key value pairs.vi" Type="VI" URL="../parse key value pairs.vi"/>
-			<Item Name="parse record header.vi" Type="VI" URL="../parse record header.vi"/>
-			<Item Name="read record.vi" Type="VI" URL="../read record.vi"/>
-			<Item Name="send record.vi" Type="VI" URL="../send record.vi"/>
-			<Item Name="record header.ctl" Type="VI" URL="../record header.ctl"/>
-			<Item Name="record types.ctl" Type="VI" URL="../record types.ctl"/>
-			<Item Name="unknown type body.ctl" Type="VI" URL="../unknown type body.ctl"/>
-			<Item Name="value names.ctl" Type="VI" URL="../value names.ctl"/>
-			<Item Name="generate key value pairs.vi" Type="VI" URL="../generate key value pairs.vi"/>
+			<Item Name="FCGI begin request body.ctl" Type="VI" URL="../FCGI begin request body.ctl"/>
+			<Item Name="FCGI end request body.ctl" Type="VI" URL="../FCGI end request body.ctl"/>
+			<Item Name="FCGI begin request role.ctl" Type="VI" URL="../FCGI begin request role.ctl"/>
+			<Item Name="FCGI end request protocol status.ctl" Type="VI" URL="../FCGI end request protocol status.ctl"/>
+			<Item Name="FCGI parse count.vi" Type="VI" URL="../FCGI parse count.vi"/>
+			<Item Name="FCGI parse key value pairs.vi" Type="VI" URL="../FCGI parse key value pairs.vi"/>
+			<Item Name="FCGI parse record header.vi" Type="VI" URL="../FCGI parse record header.vi"/>
+			<Item Name="FCGI read record.vi" Type="VI" URL="../FCGI read record.vi"/>
+			<Item Name="FCGI send record.vi" Type="VI" URL="../FCGI send record.vi"/>
+			<Item Name="FCGI record header.ctl" Type="VI" URL="../FCGI record header.ctl"/>
+			<Item Name="FCGI record types.ctl" Type="VI" URL="../FCGI record types.ctl"/>
+			<Item Name="FCGI unknown type body.ctl" Type="VI" URL="../FCGI unknown type body.ctl"/>
+			<Item Name="FCGI value names.ctl" Type="VI" URL="../FCGI value names.ctl"/>
+			<Item Name="FCGI generate key value pairs.vi" Type="VI" URL="../FCGI generate key value pairs.vi"/>
 		</Item>
-		<Item Name="processor_bal.vi" Type="VI" URL="../processor_bal.vi"/>
 		<Item Name="test" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
 			<Property Name="Bld_version.build" Type="Int">2</Property>
