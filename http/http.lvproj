@@ -22,15 +22,19 @@
 		<Item Name="test" Type="Folder">
 			<Item Name="stupid get action.vi" Type="VI" URL="../../tests/stupid get action.vi"/>
 			<Item Name="test responder.lvclass" Type="LVClass" URL="../../tests/test responder/test responder.lvclass"/>
+			<Item Name="test ws client.vi" Type="VI" URL="../../tests/test ws client.vi"/>
 			<Item Name="testclient.vi" Type="VI" URL="../../tests/testclient.vi"/>
 			<Item Name="Websocket console plugin.lvclass" Type="LVClass" URL="../../tests/ws console/Websocket console plugin.lvclass"/>
 			<Item Name="ws key accept process.vi" Type="VI" URL="../../tests/ws key accept process.vi"/>
 		</Item>
 		<Item Name="websockets" Type="Folder">
+			<Item Name="websocket client.lvclass" Type="LVClass" URL="../websocket/client/websocket client.lvclass"/>
+			<Item Name="websocket core.lvlib" Type="Library" URL="../websocket/websocket core.lvlib"/>
 			<Item Name="websocket upgrade handler.lvclass" Type="LVClass" URL="../websocket/websocket upgrade handler.lvclass"/>
 			<Item Name="websocket user plugin.lvclass" Type="LVClass" URL="../websocket/user plugin/websocket user plugin.lvclass"/>
 		</Item>
 		<Item Name="Basic HTTP server.lvclass" Type="LVClass" URL="../HTTP server/Basic HTTP server.lvclass"/>
+		<Item Name="http headers.lvlib" Type="Library" URL="../HTTP server/headers/http headers.lvlib"/>
 		<Item Name="http responder.lvclass" Type="LVClass" URL="../HTTP responder/http responder.lvclass"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -43,11 +47,15 @@
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_WebServices.lvlib" Type="Library" URL="/&lt;vilib&gt;/wsapi/NI_WebServices.lvlib"/>
 				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="websocket unmask data.vi" Type="VI" URL="../websocket/websocket unmask data.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Application" Type="EXE">
