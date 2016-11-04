@@ -23,6 +23,7 @@
 			<Item Name="stupid get action.vi" Type="VI" URL="../../tests/stupid get action.vi"/>
 			<Item Name="test responder.lvclass" Type="LVClass" URL="../../tests/test responder/test responder.lvclass"/>
 			<Item Name="test ws client.vi" Type="VI" URL="../../tests/test ws client.vi"/>
+			<Item Name="test ws standalone.vi" Type="VI" URL="../../tests/test ws standalone.vi"/>
 			<Item Name="testclient.vi" Type="VI" URL="../../tests/testclient.vi"/>
 			<Item Name="Websocket console plugin.lvclass" Type="LVClass" URL="../../tests/ws console/Websocket console plugin.lvclass"/>
 			<Item Name="ws key accept process.vi" Type="VI" URL="../../tests/ws key accept process.vi"/>
@@ -30,11 +31,12 @@
 		<Item Name="websockets" Type="Folder">
 			<Item Name="websocket client.lvclass" Type="LVClass" URL="../websocket/client/websocket client.lvclass"/>
 			<Item Name="websocket core.lvlib" Type="Library" URL="../websocket/websocket core.lvlib"/>
+			<Item Name="websocket standalone server.lvclass" Type="LVClass" URL="../websocket/standalone server/websocket standalone server.lvclass"/>
 			<Item Name="websocket upgrade handler.lvclass" Type="LVClass" URL="../websocket/websocket upgrade handler.lvclass"/>
 			<Item Name="websocket user plugin.lvclass" Type="LVClass" URL="../websocket/user plugin/websocket user plugin.lvclass"/>
 		</Item>
 		<Item Name="Basic HTTP server.lvclass" Type="LVClass" URL="../HTTP server/Basic HTTP server.lvclass"/>
-		<Item Name="http headers.lvlib" Type="Library" URL="../HTTP server/headers/http headers.lvlib"/>
+		<Item Name="http headers.lvlib" Type="Library" URL="../HTTP headers/http headers.lvlib"/>
 		<Item Name="http responder.lvclass" Type="LVClass" URL="../HTTP responder/http responder.lvclass"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
