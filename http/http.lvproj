@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="13008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -20,13 +20,13 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="test" Type="Folder">
-			<Item Name="stupid get action.vi" Type="VI" URL="../../tests/stupid get action.vi"/>
-			<Item Name="test responder.lvclass" Type="LVClass" URL="../../tests/test responder/test responder.lvclass"/>
-			<Item Name="test ws client.vi" Type="VI" URL="../../tests/test ws client.vi"/>
-			<Item Name="test ws standalone.vi" Type="VI" URL="../../tests/test ws standalone.vi"/>
-			<Item Name="testclient.vi" Type="VI" URL="../../tests/testclient.vi"/>
-			<Item Name="Websocket console plugin.lvclass" Type="LVClass" URL="../../tests/ws console/Websocket console plugin.lvclass"/>
-			<Item Name="ws key accept process.vi" Type="VI" URL="../../tests/ws key accept process.vi"/>
+			<Item Name="stupid get action.vi" Type="VI" URL="../tests/stupid get action.vi"/>
+			<Item Name="test responder.lvclass" Type="LVClass" URL="../tests/test responder/test responder.lvclass"/>
+			<Item Name="test ws client.vi" Type="VI" URL="../tests/test ws client.vi"/>
+			<Item Name="test ws standalone.vi" Type="VI" URL="../tests/test ws standalone.vi"/>
+			<Item Name="testclient.vi" Type="VI" URL="../tests/testclient.vi"/>
+			<Item Name="Websocket console plugin.lvclass" Type="LVClass" URL="../tests/ws console/Websocket console plugin.lvclass"/>
+			<Item Name="ws key accept process.vi" Type="VI" URL="../tests/ws key accept process.vi"/>
 		</Item>
 		<Item Name="websockets" Type="Folder">
 			<Item Name="websocket client.lvclass" Type="LVClass" URL="../websocket/client/websocket client.lvclass"/>
