@@ -21,6 +21,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="test" Type="Folder">
 			<Item Name="stupid get action.vi" Type="VI" URL="../tests/stupid get action.vi"/>
+			<Item Name="stupid put action.vi" Type="VI" URL="../tests/stupid put action.vi"/>
 			<Item Name="test responder.lvclass" Type="LVClass" URL="../tests/test responder/test responder.lvclass"/>
 			<Item Name="test ws client.vi" Type="VI" URL="../tests/test ws client.vi"/>
 			<Item Name="test ws standalone.vi" Type="VI" URL="../tests/test ws standalone.vi"/>
@@ -36,7 +37,6 @@
 			<Item Name="websocket user plugin.lvclass" Type="LVClass" URL="../websocket/user plugin/websocket user plugin.lvclass"/>
 		</Item>
 		<Item Name="Basic HTTP server.lvclass" Type="LVClass" URL="../HTTP server/Basic HTTP server.lvclass"/>
-		<Item Name="bench.vi" Type="VI" URL="/C/Users/IEUser/Documents/bench.vi"/>
 		<Item Name="http headers.lvlib" Type="Library" URL="../HTTP headers/http headers.lvlib"/>
 		<Item Name="http responder.lvclass" Type="LVClass" URL="../HTTP responder/http responder.lvclass"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
@@ -57,7 +57,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="parse core2.vi" Type="VI" URL="/C/Users/IEUser/Documents/parse core2.vi"/>
 			<Item Name="websocket unmask data.vi" Type="VI" URL="../websocket/websocket unmask data.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -76,7 +75,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F65D584F-2122-4412-A060-7886C8AB4567}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">httplisten.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/httplisten.exe</Property>
@@ -85,27 +84,13 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C3FFC36B-E783-472C-8876-4F9A45656B7A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0EE1708F-DF64-411E-AB10-1E4B4952E047}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
-				<Property Name="Source[2].properties[0].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[1].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[2].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[2].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
-				<Property Name="Source[3].properties[0].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[3].propertiesCount" Type="Int">1</Property>
-				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">ni</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">My Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">My Application</Property>
